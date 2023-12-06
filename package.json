@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@web5/api": "^0.8.2"
+  },
+  "name": "game-id",
+  "description": "Welcome to this repository. We welcome contribution of all kinds.\r This is a Web5 Hackathon Challenge.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
