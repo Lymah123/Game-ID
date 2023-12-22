@@ -1,0 +1,102 @@
+.App {
+  background: rgb(28, 15, 64);
+  background-image: url("../src/assets/man-neon-suit-sits-chair-with-neon-sign-that-says-word-it.jpeg");
+  background-size: cover;
+
+  height: 100vh;
+}
+.loginContainer {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.button_gl {
+  background-color: #74e3a4;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 10px;
+}
+.button_gl:hover {
+  background-color: #a6efc6;
+  cursor: pointer;
+}
+.copybtn-gl {
+  color: #74e3a4 !important;
+  font-size: 12px !important;
+  text-align: center;
+}
+.infoHeading {
+  color: #74e3a4 !important;
+  font-weight: bold;
+  font-size: 12px !important;
+  text-align: center;
+}
+.copybtn-gl:hover {
+  color: #a6efc6;
+  cursor: pointer;
+}
+.inputStyle-gl {
+  background-color: #3c374d !important;
+  border: none !important;
+  color: #ffffff !important;
+  padding-bottom: 12px !important;
+  padding-top: 12px !important;
+  font-size: 12px !important;
+}
+.inputStyle-gl::placeholder {
+  color: #ababab !important;
+}
+.loginbox {
+  background: rgb(39, 23, 82);
+  background: linear-gradient(
+    28deg,
+    rgba(39, 23, 82, 1) 0%,
+    rgba(22, 22, 22, 1) 100%
+  );
+  padding: 50px;
+  padding-bottom: 30px;
+  box-shadow: -5px 10px 32px -3px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: -5px 10px 32px -3px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -5px 10px 32px -3px rgba(0, 0, 0, 0.44);
+  border-radius: 8px;
+  opacity: 0.92;
+}
+.avatarPlaceholder-gl {
+  width: 100px !important;
+  height: 100px;
+  border-radius: 50%;
+  border: #000000 solid 2px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+}
+.logo-gl {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 40px;
+}
+.grpCharecters-gl {
+  margin-top: 30px;
+}
+.DidContainer {
+  background: "#3c374d";
+  height: "99px";
+  border-radius: "10px";
+  padding: "10px";
+}
+.didDisplayBox-gl {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.heightOfDidDisplayBox-gl {
+  height: 59px;
+}
+.spinnerPosition-gl {
+  margin-left: 45%;
+  margin-top: 3%;
+}
